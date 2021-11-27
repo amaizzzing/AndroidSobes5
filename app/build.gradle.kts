@@ -51,6 +51,9 @@ dependencies {
         implementation(Dependencies.Room.room_ktx)
         implementation(Dependencies.Dagger.dagger)
         implementation(Dependencies.Dagger.daggerAndroid)
+        implementation(Dependencies.Retrofit.retrofit)
+        implementation(Dependencies.Retrofit.retrofitAdapterRxJava)
+        implementation(Dependencies.Retrofit.retrofitConverterGson)
         implementation(Dependencies.Glide.glide)
         implementation(Dependencies.LifeCycle.lifeCycleViewModel)
         implementation(Dependencies.LifeCycle.lifeCycleExtensions)
@@ -61,6 +64,7 @@ dependencies {
         implementation(Dependencies.JodaTime.jodaTime)
         implementation(Dependencies.BuildPlugins.googleServicesMaps)
         implementation(Dependencies.Paging.pagingRuntime)
+        implementation("com.squareup.okhttp3:logging-interceptor:3.9.0")
 
         kapt(Dependencies.Room.roomCompiler)
         kapt(Dependencies.Dagger.daggerCompiler)
