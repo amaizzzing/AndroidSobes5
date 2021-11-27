@@ -79,6 +79,11 @@ object Dependencies{
         const val espresso = "androidx.test.espresso:espresso-core:$espressoVersion"
         const val runner = "androidx.test:runner:$runnerVersion"
     }
+    object Retrofit {
+        const val retrofit = "com.squareup.retrofit2:retrofit:$retrofitVersion"
+        const val retrofitConverterGson = "com.squareup.retrofit2:converter-gson:$retrofitVersion"
+        const val retrofitAdapterRxJava = "com.squareup.retrofit2:adapter-rxjava3:$retrofitVersion"
+    }
     object Room {
         const val room = "androidx.room:room-runtime:$roomVersion"
         const val room_ktx = "androidx.room:room-ktx:$roomVersion"
